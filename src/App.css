@@ -1,5 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* Global Styles */
+:root {
+    --primary-color: #28a745;
+    --dark-color: #333333;
+    --light-color: #f4f4f4;
+    --danger-color: #dc3545;
+    --success-color: #28a745;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    background-color: #fff;
+    color: #333;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: 0.1s;
+}
+
+a:hover {
+    color: #666;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+
 .App {
-  background: url("images/tile.png") repeat #282c34 fixed;
-  min-height: 100vh;
+    background: url("images/tile.png") repeat #38404e fixed;
+    min-height: 100vh;
+}
+
+.empItem {
+    height: 247px;
+    width: 100%;
+    background: #ffffff;
+    -webkit-box-shadow: 10px 10px 0 0 #272d37;
+    -moz-box-shadow: 10px 10px 0 0 #272d37;
+    box-shadow: 10px 10px 0 0 #272d37;
+    position: relative;
+    overflow: hidden;
+}
+.empItem .avatar{
+    margin-top:0 ;
+    transition: all .4s;
+}
+
+.empItem:hover .avatar{
+    margin-top:-25px ;
+}
+
+.empItem_details{
+    position: absolute;
+    transition: all .3s;
+    left: 0;
+    right:0;
+    bottom: -75px;
+}
+
+.empItem_pins{
+    position: absolute;
+    top:5px;
+    right: 5px;
+}
+
+.badge{
+    margin-left: 3px;
+}
+
+.empItem:hover .empItem_details{
+    bottom: 0;
 }
 

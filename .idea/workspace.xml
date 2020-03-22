@@ -2,21 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b4a708b-dec7-487e-ab31-e1e5d6c8db8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/tile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/employees/CreateEmployee.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/employees/Employee.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/employees/EmployeeForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/employees/EmployeeItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/employees/Employees.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/employees/Pagination.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/employees/Search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/employees/UpdateEmployee.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/Navbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/Spinner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/spinner.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/NotFound.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/herokudb/herokudbContext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/herokudb/herokudbReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/herokudb/herokudbState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/employee-directory.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/employee-directory.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,6 +54,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/employees" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -39,7 +62,15 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\karim\WebstormProjects\react-tutorials\employee-directory\src\components\employees" />
+      <recent name="C:\Users\karim\WebstormProjects\react-tutorials\employee-directory\src\components\layout" />
+      <recent name="C:\Users\karim\WebstormProjects\react-tutorials\employee-directory\src\components\pages" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\karim\WebstormProjects\react-tutorials\employee-directory\src\components\layout" />
+      <recent name="C:\Users\karim\WebstormProjects\react-tutorials\employee-directory\src\context\herokudb" />
+      <recent name="C:\Users\karim\WebstormProjects\react-tutorials\employee-directory\src\components\employees" />
       <recent name="C:\Users\karim\WebstormProjects\react-tutorials\employee-directory\src\images" />
     </key>
   </component>
@@ -68,7 +99,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584809026147</updated>
-      <workItem from="1584809028543" duration="2453000" />
+      <workItem from="1584809028543" duration="9331000" />
+      <workItem from="1584833736104" duration="12209000" />
+      <workItem from="1584883134860" duration="2567000" />
+      <workItem from="1584888353959" duration="16735000" />
     </task>
     <servers />
   </component>
@@ -80,21 +114,33 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/2560.363.2560.1040@0.0.2560.1400" timestamp="1584810652295" />
-    <state width="2539" height="382" key="GridCell.Tab.0.bottom" timestamp="1584809829080">
+    <state x="1060" y="455" key="FileChooserDialogImpl" timestamp="1584834409054">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="382" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.363.2560.1040@0.0.2560.1400" timestamp="1584809829080" />
-    <state width="2539" height="382" key="GridCell.Tab.0.center" timestamp="1584809829080">
+    <state x="1060" y="455" key="FileChooserDialogImpl/0.0.2560.1400/2560.363.2560.1040@0.0.2560.1400" timestamp="1584834409054" />
+    <state width="2539" height="547" key="GridCell.Tab.0.bottom" timestamp="1584908947827">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="382" key="GridCell.Tab.0.center/0.0.2560.1400/2560.363.2560.1040@0.0.2560.1400" timestamp="1584809829080" />
-    <state width="2539" height="382" key="GridCell.Tab.0.left" timestamp="1584809829080">
+    <state width="2539" height="547" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.363.2560.1040@0.0.2560.1400" timestamp="1584908947827" />
+    <state width="2539" height="547" key="GridCell.Tab.0.center" timestamp="1584908947827">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="382" key="GridCell.Tab.0.left/0.0.2560.1400/2560.363.2560.1040@0.0.2560.1400" timestamp="1584809829080" />
-    <state width="2539" height="382" key="GridCell.Tab.0.right" timestamp="1584809829080">
+    <state width="2539" height="547" key="GridCell.Tab.0.center/0.0.2560.1400/2560.363.2560.1040@0.0.2560.1400" timestamp="1584908947827" />
+    <state width="2539" height="547" key="GridCell.Tab.0.left" timestamp="1584908947826">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="382" key="GridCell.Tab.0.right/0.0.2560.1400/2560.363.2560.1040@0.0.2560.1400" timestamp="1584809829080" />
+    <state width="2539" height="547" key="GridCell.Tab.0.left/0.0.2560.1400/2560.363.2560.1040@0.0.2560.1400" timestamp="1584908947826" />
+    <state width="2539" height="547" key="GridCell.Tab.0.right" timestamp="1584908947827">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2539" height="547" key="GridCell.Tab.0.right/0.0.2560.1400/2560.363.2560.1040@0.0.2560.1400" timestamp="1584908947827" />
+    <state x="967" y="274" width="626" height="852" key="find.popup" timestamp="1584909733081">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="967" y="274" width="626" height="852" key="find.popup/0.0.2560.1400/2560.363.2560.1040@0.0.2560.1400" timestamp="1584909733081" />
+    <state x="936" y="330" key="run.anything.popup" timestamp="1584896126567">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="936" y="330" key="run.anything.popup/0.0.2560.1400/2560.363.2560.1040@0.0.2560.1400" timestamp="1584896126567" />
   </component>
 </project>
