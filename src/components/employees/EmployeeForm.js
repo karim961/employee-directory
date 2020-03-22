@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import PropTypes from "prop-types";
 
+
+//common employee update and create form componnet
 class EmployeeForm extends Component {
 
     state = {
@@ -52,7 +54,6 @@ class EmployeeForm extends Component {
         } = this.state;
 
         return (
-
             <div className='col-12'>
                 <form onSubmit={this.onSubmit}>
                     <div className="form-group">
@@ -128,7 +129,7 @@ class EmployeeForm extends Component {
                         <textarea className="form-control" id="bio" rows="3" name="bio" onChange={this.onChange} value={bio}/>
                     </div>
 
-                    <button type="submit" className="btn btn-success">Submit</button>
+                    <button type="submit" className="btn btn-success float-right">Submit</button>
                 </form>
             </div>
         );

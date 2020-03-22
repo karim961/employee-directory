@@ -3,6 +3,7 @@ import EmployeeForm from "./EmployeeForm";
 import HerokudbContext from "../../context/herokudb/herokudbContext";
 import {Link} from "react-router-dom";
 
+//class responsible for the update of the employee
 const UpdateEmployee = ({history}) => {
 
     const {updateEmployee, employee} = useContext(HerokudbContext);

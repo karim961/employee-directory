@@ -8,7 +8,7 @@ import {
     SET_LOADING,
     GET_EMPLOYEE,
     GET_EMPLOYEES_PAGINATED,
-    DELETE_EMPLOYEE,
+    DELETE_EMPLOYEE, UPDATE_EMPLOYEE, FILTER_EMPLOYEES,
 
 } from "../types";
 
@@ -35,9 +35,6 @@ const HerokudbState = props => {
     };
 
 
-    //const currentPosts = posts.slice(indexOfFirstPost,indexOfLastPost);
-
-
     const [state, dispatch] = useReducer(HerokudbReducer, initialState);
 
     //Get all Employees
@@ -51,7 +48,7 @@ const HerokudbState = props => {
 
     };
 
-    //Get Employees with pagination
+    //Get Employees with pagination with teh ability to set the current page and the number of employees per page
     const getEmployees_paginated = async (currentPage = state.currentPage, employeesPerPage = state.employeesPerPage) => {
         setLoading();
         const res = await Axios.get(`${herokudbURL}?_page=${currentPage}&_limit=${employeesPerPage}`);
@@ -69,6 +66,17 @@ const HerokudbState = props => {
         const res = await Axios.get(`${herokudbURL}?q=${text}`);
         dispatch({
             type: SEARCH_EMPLOYEES,
+            payload: res.data
+        })
+    };
+
+    //TODO add filter by multiple properties
+    //filter employees
+    const filterEmployees = async (property, text) => {
+        setLoading();
+        const res = await Axios.get(`${herokudbURL}?${property}=${text}`);
+        dispatch({
+            type: FILTER_EMPLOYEES,
             payload: res.data
         })
     };
@@ -94,12 +102,12 @@ const HerokudbState = props => {
     //update Employee
     const updateEmployee = async (employee) => {
         setLoading();
-        console.log(herokudbURL);
-        console.log(employee);
-
         const res = await Axios.put(`${herokudbURL}/${employee.id}`, employee);
 
-        console.log(res);
+        dispatch({
+            type: UPDATE_EMPLOYEE,
+            payload: res.data
+        });
     };
 
     //Delete Employee
@@ -131,7 +139,8 @@ const HerokudbState = props => {
         getEmployee,
         deleteEmployee,
         createEmployee,
-        updateEmployee
+        updateEmployee,
+        filterEmployees
 
     }}>
         {props.children}

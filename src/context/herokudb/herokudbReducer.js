@@ -54,9 +54,19 @@ export default (state, action) => {
         case DELETE_EMPLOYEE:
             return {
                 ...state,
-                employees: state.employees.filter(employee => employee !==action.payload),
+                employees: state.employees.filter(employee => employee !== action.payload),
                 loading: false
             };
+        case UPDATE_EMPLOYEE:
+
+            let foundIndex = state.employees.findIndex(x => x.id === action.payload.id);
+            state.employees[foundIndex] = action.payload;
+
+            return {
+                ...state,
+                loading: false
+            };
+
         default:
             return state;
     }

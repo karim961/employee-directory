@@ -3,10 +3,13 @@ import EmployeeForm from "./EmployeeForm";
 import HerokudbContext from "../../context/herokudb/herokudbContext";
 import {Link} from "react-router-dom";
 
+
+//Class responsible from the employee creation
 const CreateEmployee = ({history}) => {
 
     const {createEmployee} = useContext(HerokudbContext);
 
+    //functions that submits the form values that comes from EmployeeForm
     const submitForm = async (employee) => {
         await createEmployee(employee);
         history.push('/')
