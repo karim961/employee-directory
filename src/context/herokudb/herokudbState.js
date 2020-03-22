@@ -13,11 +13,13 @@ import {
 } from "../types";
 
 let herokudbURL;
+console.log(process.env);
 //TODO: Handle error from server  calls
 console.log(process.env.REACT_APP_HEROKU_JSON_SERVER_URL);
 if (process.env.NODE_ENV !== 'production') {
     herokudbURL = process.env.REACT_APP_HEROKU_JSON_SERVER_URL;
 } else {
+    console.log(process.env);
     herokudbURL = process.env.HEROKU_JSON_SERVER_URL;
 }
 ;
