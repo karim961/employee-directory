@@ -18,8 +18,9 @@ console.log(process.env);
 if (process.env.NODE_ENV !== 'production') {
     herokudbURL = process.env.REACT_APP_HEROKU_JSON_SERVER_URL;
 } else {
-    console.log(process.env.API_URL);
-    herokudbURL = process.env.API_URL;
+    //console.log(process.env.API_URL);
+    //herokudbURL = process.env.API_URL;
+    herokudbURL = 'https://karim-jsonserver.herokuapp.com/employees';
 }
 ;
 
