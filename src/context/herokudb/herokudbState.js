@@ -18,7 +18,7 @@ console.log(process.env.REACT_APP_HEROKU_JSON_SERVER_URL);
 if (process.env.NODE_ENV !== 'production') {
     herokudbURL = process.env.REACT_APP_HEROKU_JSON_SERVER_URL;
 } else {
-    herokudbURL = process.env.REACT_APP_HEROKU_JSON_SERVER_URL;
+    herokudbURL = process.env.HEROKU_JSON_SERVER_URL;
 }
 ;
 
