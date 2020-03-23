@@ -26,7 +26,7 @@ const Filters = () => {
                     <option value="United Kingdom">United Kingdom</option>
                 </select>
                 <div className="input-group-append">
-                    <input type={"submit"} value={"Filter"} className="btn btn-success btn-block" onClick={onSubmit}/>
+                    <button type={"submit"} className="btn btn-secondary btn-block" onClick={onSubmit}><i className="fas fa-filter"/> </button>
                 </div>
             </form>
         </div>
