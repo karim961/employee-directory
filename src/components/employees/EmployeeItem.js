@@ -21,7 +21,7 @@ const EmployeeItem = ({employee: {avatar_url, first_name, last_name, id, departm
 
     //TODO : fix deprecated findDOMnode warning
     return (
-        <div className="col-3 d-flex mb-4">
+        <div className="col-lg-3 col-md-4 d-flex mb-4">
             <Tilt className="empItem text-center" options={tiltOptions}>
                 <Link to={`/employee/${id}`} className="d-block Tilt-inner">
                     <img src={avatar_url} alt="" className="avatar" style={{width: "100%"}}/>

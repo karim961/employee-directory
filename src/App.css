@@ -49,8 +49,7 @@ img {
 }
 
 .empItem {
-    height: 247px;
-    width: 100%;
+    min-height: 100%;
     background: #ffffff;
     -webkit-box-shadow: 10px 10px 0 0 #272d37;
     -moz-box-shadow: 10px 10px 0 0 #272d37;

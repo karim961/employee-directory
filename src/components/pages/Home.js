@@ -11,7 +11,7 @@ const Home = () => {
                 <div className="col-12 mb-1">
                     <Search/>
                 </div>
-                <div className="col-3 mb-1">
+                <div className="col-lg-3 col-md-4 mb-1">
                 <Filters/>
                 </div>
             </div>

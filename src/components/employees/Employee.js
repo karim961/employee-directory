@@ -54,10 +54,10 @@ const Employee = ({match,history}) => {
                 </div>
 
                 <div className="row py-3">
-                    <div className="col-4 d-flex justify-content-center align-items-center">
+                    <div className="col-lg-4 d-flex justify-content-center align-items-center">
                         <img src={avatar_url} className="rounded-circle bg-light" alt="profile pic"/>
                     </div>
-                    <div className="col-8">
+                    <div className="col-lg-8">
                         <h2 className="text-success m-0 font-weight-bold"> {first_name} {last_name}</h2>
                         <h5 className="">{department} - {job_title}</h5>
                         <ul className="text-success">
