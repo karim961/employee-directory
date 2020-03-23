@@ -37,7 +37,7 @@ const Employee = ({match,history}) => {
         return <Spinner/>
     } else {
         return (
-            <div className=" mt-5 px-5 py-2 bg-white rounded">
+            <div className=" mt-5 px-md-5 px-4 py-2 bg-white rounded">
                 <div className="row justify-content-between">
                     <Link to='/' className="btn btn-outline-dark">
                         <span className="btn-label"><i className="fas fa-arrow-left"/> </span> Back
