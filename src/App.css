@@ -50,6 +50,7 @@ img {
 
 .empItem {
     min-height: 100%;
+    width: 100%;
     background: #ffffff;
     -webkit-box-shadow: 10px 10px 0 0 #272d37;
     -moz-box-shadow: 10px 10px 0 0 #272d37;
@@ -57,34 +58,35 @@ img {
     position: relative;
     overflow: hidden;
 }
-.empItem .avatar{
-    margin-top:0 ;
+
+.empItem .avatar {
+    margin-top: 0;
     transition: all .4s;
 }
 
-.empItem:hover .avatar{
-    margin-top:-25px ;
+.empItem:hover .avatar {
+    margin-top: -25px;
 }
 
-.empItem_details{
+.empItem_details {
     position: absolute;
     transition: all .3s;
     left: 0;
-    right:0;
+    right: 0;
     bottom: -75px;
 }
 
-.empItem_pins{
+.empItem_pins {
     position: absolute;
-    top:5px;
+    top: 5px;
     right: 5px;
 }
 
-.badge{
+.badge {
     margin-left: 3px;
 }
 
-.empItem:hover .empItem_details{
+.empItem:hover .empItem_details {
     bottom: 0;
 }
 
