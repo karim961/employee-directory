@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b4a708b-dec7-487e-ab31-e1e5d6c8db8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/herokudb/herokudbState.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/herokudb/herokudbState.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +85,7 @@
       <workItem from="1584950090483" duration="4538000" />
       <workItem from="1585123985839" duration="3255000" />
       <workItem from="1585217412492" duration="601000" />
-      <workItem from="1585252976125" duration="1670000" />
+      <workItem from="1585252976125" duration="2913000" />
     </task>
     <servers />
   </component>
