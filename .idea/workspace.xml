@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5b4a708b-dec7-487e-ab31-e1e5d6c8db8a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/employees/Filters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/employees/Filters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/herokudb/herokudbState.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/herokudb/herokudbState.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +37,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -83,7 +82,10 @@
       <workItem from="1584883134860" duration="2567000" />
       <workItem from="1584888353959" duration="22293000" />
       <workItem from="1584949885034" duration="187000" />
-      <workItem from="1584950090483" duration="2840000" />
+      <workItem from="1584950090483" duration="4538000" />
+      <workItem from="1585123985839" duration="3255000" />
+      <workItem from="1585217412492" duration="601000" />
+      <workItem from="1585252976125" duration="196000" />
     </task>
     <servers />
   </component>
@@ -99,26 +101,26 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1060" y="455" key="FileChooserDialogImpl/0.0.2560.1400/2560.363.2560.1040@0.0.2560.1400" timestamp="1584834409054" />
-    <state width="2539" height="547" key="GridCell.Tab.0.bottom" timestamp="1584915182838">
+    <state width="2539" height="547" key="GridCell.Tab.0.bottom" timestamp="1584978055388">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="547" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.363.2560.1040@0.0.2560.1400" timestamp="1584915182838" />
-    <state width="2539" height="547" key="GridCell.Tab.0.center" timestamp="1584915182838">
+    <state width="2539" height="547" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.363.2560.1040@0.0.2560.1400" timestamp="1584978055388" />
+    <state width="2539" height="547" key="GridCell.Tab.0.center" timestamp="1584978055387">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="547" key="GridCell.Tab.0.center/0.0.2560.1400/2560.363.2560.1040@0.0.2560.1400" timestamp="1584915182838" />
-    <state width="2539" height="547" key="GridCell.Tab.0.left" timestamp="1584915182838">
+    <state width="2539" height="547" key="GridCell.Tab.0.center/0.0.2560.1400/2560.363.2560.1040@0.0.2560.1400" timestamp="1584978055387" />
+    <state width="2539" height="547" key="GridCell.Tab.0.left" timestamp="1584978055387">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="547" key="GridCell.Tab.0.left/0.0.2560.1400/2560.363.2560.1040@0.0.2560.1400" timestamp="1584915182838" />
-    <state width="2539" height="547" key="GridCell.Tab.0.right" timestamp="1584915182838">
+    <state width="2539" height="547" key="GridCell.Tab.0.left/0.0.2560.1400/2560.363.2560.1040@0.0.2560.1400" timestamp="1584978055387" />
+    <state width="2539" height="547" key="GridCell.Tab.0.right" timestamp="1584978055388">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="547" key="GridCell.Tab.0.right/0.0.2560.1400/2560.363.2560.1040@0.0.2560.1400" timestamp="1584915182838" />
-    <state x="781" y="342" key="SettingsEditor" timestamp="1584913100828">
+    <state width="2539" height="547" key="GridCell.Tab.0.right/0.0.2560.1400/2560.363.2560.1040@0.0.2560.1400" timestamp="1584978055388" />
+    <state x="781" y="342" key="SettingsEditor" timestamp="1585132137789">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="781" y="342" key="SettingsEditor/0.0.2560.1400/2560.363.2560.1040@0.0.2560.1400" timestamp="1584913100828" />
+    <state x="781" y="342" key="SettingsEditor/0.0.2560.1400/2560.363.2560.1040@0.0.2560.1400" timestamp="1585132137789" />
     <state x="967" y="274" width="626" height="852" key="find.popup" timestamp="1584909733081">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
